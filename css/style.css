@@ -1,0 +1,80 @@
+body {
+	background: linear-gradient(to bottom, rgb(120, 150, 30), rgba(212, 221, 221, 0.2));
+	font-size: 1.2em;
+	text-align: justify;
+	font-family: "Lato";
+}
+
+#title {
+	color: rgb(214, 155, 45);
+	background: rgb(179, 29, 29);
+}
+
+.subtitle {
+	color: rgb(35, 139, 40);
+	background: rgb(200, 200, 200);
+}
+
+.container {
+	background-color:rgb(222, 65, 18) ;
+	display: flex;
+	margin: 20px;
+	height: 250px;
+	flex-direction: row;
+	justify-content:space-around ;
+	align-items:baseline;
+	
+}
+.container-items{
+	background: rgb(18, 17, 61);
+	color: white;
+	text-align: center;
+	margin: 10px;
+	line-height: 50px;
+	width: 50px;
+}
+
+.p {
+	color: rgb(47, 10, 10);
+}
+
+
+.images {
+	height: 400px;
+	width: 50vm;
+	border: 1px solid rgb(179, 29, 29);
+	margin: 80px 40px;
+
+	/* margin moving container fully but padding only change inside border */
+}
+
+.list-items {
+	color: rgb(222, 65, 18);
+}
+
+.form-input {
+	color: rgb(18, 17, 61);
+}
+
+.link-google {
+	color: rgb(32, 163, 15);
+	text-decoration: none;
+}
+
+/* #service-image{
+	width: 400px;
+	height: 200px;
+	background: linear-gradient(125deg ,rgb(35, 139, 40),rgb(35, 139, 40,0));
+	 background-size: cover;   for linear u can use bak=cgground size but not radial gradient 
+} 
+*/
+
+/* radial is by default elipse
+u can make it circle by typing circle inside radial fuction */
+
+#service-image {
+	height: 400px;
+	width: 70%;
+	background: radial-gradient(circle, red 10%, blue 20%, yellow 50%);
+}
+
