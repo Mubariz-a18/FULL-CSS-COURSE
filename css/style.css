@@ -34,6 +34,33 @@ body {
 	width: 20px;
 }
 
+.grid-container{
+	font-family: Arial, Helvetica, sans-serif;
+	background:linear-gradient(to left,rgb(14, 51, 76),rgba(225,130,170,0.8));
+	display: grid;
+	margin: 10px;
+	height: 350px;
+	grid-template-columns: 100px 100px 100px ;
+	grid-template-rows: 200px 200px;
+	
+
+
+}
+
+.grid-items{
+	color:navajowhite;
+	padding: 10px;
+	text-align: center;
+	background: rgb(37, 160, 109);
+	margin: 10px;
+	height:80px;
+	width: 50px;
+	line-height: 50px;
+
+
+}
+
+
 .p {
 	color: rgb(47, 10, 10);
 }
