@@ -60,6 +60,24 @@ body {
 
 }
 
+.img-container{
+	background:linear-gradient(to left,rgb(14, 51, 76),rgba(225,130,170,0.8));
+	height: 500px;
+	border: 10px solid navajowhite ;
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-template-rows: 250px 100px ;
+}
+
+.img-img{
+	background: rgb(37, 160, 109) ;
+	height: 200px;
+	border: 3px solid navy;
+	width:auto;
+	margin :30px;
+
+
+}
 
 .p {
 	color: rgb(47, 10, 10);
