@@ -146,6 +146,8 @@ u can make it circle by typing circle inside radial fuction */
 	margin: 20px 10px;
 	padding: 10px 15px;
 	-webkit-transition: all 200ms ease-out 0.2s;
+	transform: matrix(1,0.45,0.45,1,200,50);
+	/* transform: scale(1); */
 	/* -webkit-transform:translate(25px 10px) ; */
 	
 }
@@ -154,6 +156,5 @@ u can make it circle by typing circle inside radial fuction */
 	background-color: rgb(186, 191, 209);
 	padding: 20px 20px;
 	color: black;
-	transform: scale(1);
 	
 }
