@@ -158,3 +158,25 @@ u can make it circle by typing circle inside radial fuction */
 	color: black;
 	
 }
+
+.subtitle{
+	animation-name: redToBlack; 
+	animation-duration: 4s;
+}
+
+@keyframes redToBlack {
+	0%{
+		background: red;
+		transform: translate(0px,0px);
+	}
+
+	50%{
+		background: pink;
+		transform: translate(10px ,20px);
+	}
+
+	100%{
+		background: black;
+		transform: translate(30px,50px);
+	}
+}
