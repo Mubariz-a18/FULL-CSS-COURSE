@@ -158,13 +158,19 @@ u can make it circle by typing circle inside radial fuction */
 	color: black;
 	
 }
-
+/* shorthand properties of animation (name duration timefuntion delay iteration dierction */
 .subtitle{
-	animation-name: redToBlack; 
-	animation-duration: 4s;
+	/* animation-name: red-To-Black; 
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 2 ;
+	animation-direction: reverse */
+
+	animation: red-To-Black 5s linear 0s 3 normal;
 }
 
-@keyframes redToBlack {
+@keyframes red-To-Black {
 	0%{
 		background: red;
 		transform: translate(0px,0px);
